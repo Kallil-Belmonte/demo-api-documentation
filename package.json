@@ -1,0 +1,19 @@
+{
+  "name": "api-documentation-demo",
+  "version": "0.0.1",
+  "description": "A simple API Documentation demonstration.",
+  "main": "index.js",
+  "authors": {
+    "name": "John Doe",
+    "email": "name@email.com"
+  },
+  "repository": "Kallil-Belmonte/vuepress-api-documentation-demo/API Documentation Demo",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
