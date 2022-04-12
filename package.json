@@ -1,7 +1,7 @@
 {
   "name": "api-documentation-demo",
   "version": "1.0.0",
-  "description": "A simple API Documentation demonstration.",
+  "description": "A simple API Documentation.",
   "main": "index.js",
   "authors": {
     "name": "John Doe",

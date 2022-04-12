@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: A simple API Documentation demonstration.
+heroImage: /images/hero.png
+tagline: A simple API Documentation.
 actionText: Quick Start →
 actionLink: /guide/
 features:

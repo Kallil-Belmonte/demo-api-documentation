@@ -2,18 +2,7 @@ import { defineConfig } from 'vuepress/config';
 
 export default defineConfig({
   /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
-  title: 'API Documentation Demo',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: 'A simple API Documentation demonstration.',
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
+   * @see Head { @link https://v1.vuepress.vuejs.org/config/#head }
    */
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -22,11 +11,33 @@ export default defineConfig({
   ],
 
   /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+   * @see Title { @link https://v1.vuepress.vuejs.org/config/#title }
+   * @see Description { @link https://v1.vuepress.vuejs.org/config/#description }
+   */
+  title: 'API Documentation Demo',
+  description: 'A simple API Documentation.',
+
+  /**
+   * @see Locales { @link https://v1.vuepress.vuejs.org/guide/i18n.html#site-level-i18n-config }
+   */
+  // locales: {
+  //   '/': {
+  //     lang: 'en-US',
+  //     title: 'API Documentation Demo',
+  //     description: 'A simple API Documentation.',
+  //   },
+  //   '/br/': {
+  //     lang: 'pt-BR',
+  //     title: 'API Documentation Demo',
+  //     description: 'Uma simples documentação de API.',
+  //   },
+  // },
+
+  /**
+   * @see Config { @link https://v1.vuepress.vuejs.org/theme/default-theme-config }
    */
   themeConfig: {
+    logo: '/images/logo.svg',
     repo: '',
     editLinks: false,
     docsDir: '',
@@ -58,7 +69,7 @@ export default defineConfig({
   },
 
   /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
+   * @see Plugin { @link https://v1.vuepress.vuejs.org/zh/plugin }
    */
   plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
 });
