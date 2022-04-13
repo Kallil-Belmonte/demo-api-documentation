@@ -9,11 +9,6 @@ sidebar: auto
 - Type: `string`
 - Default: `/`
 
-### doo
-
-- Type: `string`
-- Default: `/`
-
 ## bar
 
 - Type: `string`

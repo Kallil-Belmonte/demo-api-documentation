@@ -5,6 +5,7 @@ export default defineConfig({
    * @see Head { @link https://v1.vuepress.vuejs.org/config/#head }
    */
   head: [
+    ['link', { rel: 'shortcut icon', href: '/images/favicon.ico', type: 'image/x-icon' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -45,8 +46,8 @@ export default defineConfig({
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Endpoints',
+        link: '/endpoints/',
       },
       {
         text: 'Config',
@@ -58,11 +59,11 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      '/guide/': [
+      '/endpoints/': [
         {
-          title: 'Guide',
+          title: 'Endpoints',
           collapsable: false,
-          children: ['', 'using-vue'],
+          children: ['', 'posts', 'users'],
         },
       ],
     },
