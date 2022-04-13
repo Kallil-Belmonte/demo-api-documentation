@@ -3,7 +3,7 @@ home: true
 heroImage: /images/hero.png
 tagline: A simple API Documentation.
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /config/
 features:
   - title: Feature 1 Title
     details: Feature 1 Description
