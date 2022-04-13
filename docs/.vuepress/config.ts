@@ -69,6 +69,12 @@ export default defineConfig({
     sidebar: {
       '/endpoints': [
         {
+          title: 'Endpoints',
+          path: '/endpoints/',
+          collapsable: false,
+          children: ['endpoints/'],
+        },
+        {
           title: 'Products',
           path: '/endpoints/products/',
           collapsable: false,
