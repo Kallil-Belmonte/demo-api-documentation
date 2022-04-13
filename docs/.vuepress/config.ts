@@ -27,7 +27,7 @@ export default defineConfig({
   //     title: 'API Documentation Demo',
   //     description: 'A simple API Documentation.',
   //   },
-  //   '/br/': {
+  //   '/br': {
   //     lang: 'pt-BR',
   //     title: 'API Documentation Demo',
   //     description: 'Uma simples documentação de API.',
@@ -54,16 +54,31 @@ export default defineConfig({
         link: '/config/',
       },
       {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'Chinese', link: '/language/chinese/' },
+          { text: 'Japanese', link: '/language/japanese/' },
+        ],
+      },
+      {
         text: 'App',
         link: 'https://v1.vuepress.vuejs.org',
       },
     ],
     sidebar: {
-      '/endpoints/': [
+      '/endpoints': [
         {
-          title: 'Endpoints',
+          title: 'Products',
+          path: '/endpoints/products/',
           collapsable: false,
-          children: ['', 'posts', 'users'],
+          children: ['endpoints/products/', 'endpoints/products/get', 'endpoints/products/post'],
+        },
+        {
+          title: 'Users',
+          path: '/endpoints/users/',
+          collapsable: false,
+          children: ['endpoints/users/', 'endpoints/users/get', 'endpoints/users/post'],
         },
       ],
     },
