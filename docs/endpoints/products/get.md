@@ -12,10 +12,10 @@ GET /get-product
 
 ### Parameters
 
-| Name      | Type  | Description | Required |
+| Name      | Type  | Description | Usage    |
 | --------- | ----- | ----------- | -------- |
-| Header    | Title |             |          |
-| Paragraph | Text  |             |          |
+| Header    | Title |             | Required |
+| Paragraph | Text  |             | Optional |
 
 ### Response
 
