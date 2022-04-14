@@ -1,5 +1,5 @@
 # POST
 
-## Add product
+## Add Product
 
 addProduct

@@ -1,5 +1,5 @@
 # POST
 
-## Add user
+## Add User
 
 addUser

@@ -1,9 +1,9 @@
 # GET
 
-## Get user
+## Get User
 
 getUser
 
-## Get users
+## Get Users
 
 getUsers

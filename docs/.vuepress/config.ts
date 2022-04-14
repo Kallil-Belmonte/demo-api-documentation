@@ -57,8 +57,8 @@ export default defineConfig({
         text: 'Languages',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'Chinese', link: '/language/chinese/' },
-          { text: 'Japanese', link: '/language/japanese/' },
+          { text: 'English', link: '/language/english/' },
+          { text: 'Português', link: '/language/portugues/' },
         ],
       },
       {
@@ -71,19 +71,19 @@ export default defineConfig({
         {
           title: 'Endpoints',
           path: '/endpoints/',
-          collapsable: false,
+          collapsable: true,
           children: ['endpoints/'],
         },
         {
           title: 'Products',
           path: '/endpoints/products/',
-          collapsable: false,
+          collapsable: true,
           children: ['endpoints/products/', 'endpoints/products/get', 'endpoints/products/post'],
         },
         {
           title: 'Users',
           path: '/endpoints/users/',
-          collapsable: false,
+          collapsable: true,
           children: ['endpoints/users/', 'endpoints/users/get', 'endpoints/users/post'],
         },
       ],

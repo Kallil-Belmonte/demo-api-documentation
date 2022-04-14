@@ -1,9 +1,35 @@
 # GET
 
-## Get product
+## Get Product
 
-getProduct
+Description here.
 
-## Get products
+### Endpoint
+
+```sh
+GET /get-product
+```
+
+### Parameters
+
+| Name      | Type  | Description | Required |
+| --------- | ----- | ----------- | -------- |
+| Header    | Title |             |          |
+| Paragraph | Text  |             |          |
+
+### Response
+
+::: details Status 200
+
+```js
+{
+  "username": "username",
+  "email": "email",
+}
+```
+
+:::
+
+## Get Products
 
 getProducts
