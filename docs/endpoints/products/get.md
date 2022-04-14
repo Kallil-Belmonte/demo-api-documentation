@@ -10,7 +10,7 @@ Description here.
 GET /get-product
 ```
 
-https://hopp.sh/r/KC6zbfBzNX44
+[Make request](https://hopp.sh/r/KC6zbfBzNX44 '/get-product')
 
 ### Parameters
 
