@@ -21,10 +21,10 @@ GET /get-product
 
 ::: details Status 200
 
-```js
+```json
 {
-  "username": "username",
-  "email": "email",
+  "propertyOne": "value",
+  "propertyTwo": "value"
 }
 ```
 
