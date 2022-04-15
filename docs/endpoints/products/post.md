@@ -2,6 +2,33 @@
 
 ## Add Product
 
-addProduct
+Description here.
 
-// https://hopp.sh/r/SO5foct9zfPY
+### Endpoint
+
+```sh
+POST /add-product
+```
+
+[Send request](https://hopp.sh/r/SXbZnB4HffzH '/add-product')
+
+### Body
+
+Type: `ProductToAdd`
+
+| Name        | Type     | Default     | Usage    | Description       |
+| ----------- | -------- | ----------- | -------- | ----------------- |
+| PropertyOne | `string` |             | Required | Description here. |
+| PropertyTwo | `number` | `undefined` | Optional | Description here. |
+
+### Response
+
+::: details 200: Success
+
+Type `boolean`
+
+```json
+true
+```
+
+:::

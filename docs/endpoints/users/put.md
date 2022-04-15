@@ -1,34 +1,36 @@
-# POST
+# PUT
 
-## Add User
+## Edit User
 
 Description here.
 
 ### Endpoint
 
 ```sh
-POST /add-user
+PUT /edit-user
 ```
 
-[Send request](https://hopp.sh/r/aLQnF0HzwHNI '/add-user')
+[Send request](https://hopp.sh/r/RhtmRWywdrvY '/edit-user')
 
 ### Body
 
-Type: `UserToAdd`
+Type: `UserToEdit`
 
 | Name        | Type     | Default     | Usage    | Description       |
 | ----------- | -------- | ----------- | -------- | ----------------- |
-| PropertyOne | `string` |             | Required | Description here. |
+| PropertyOne | `string` | `undefined` | Optional | Description here. |
 | PropertyTwo | `number` | `undefined` | Optional | Description here. |
 
 ### Response
 
 ::: details 200: Success
 
-Type `boolean`
+Type: `User`
 
 ```json
-true
+{
+  "property": "value"
+}
 ```
 
 :::

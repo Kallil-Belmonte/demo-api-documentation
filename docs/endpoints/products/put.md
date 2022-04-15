@@ -1,34 +1,36 @@
-# POST
+# PUT
 
-## Add User
+## Edit Product
 
 Description here.
 
 ### Endpoint
 
 ```sh
-POST /add-user
+PUT /edit-product
 ```
 
-[Send request](https://hopp.sh/r/aLQnF0HzwHNI '/add-user')
+[Send request](https://hopp.sh/r/dGrjfpNoepNK '/edit-product')
 
 ### Body
 
-Type: `UserToAdd`
+Type: `ProductToEdit`
 
 | Name        | Type     | Default     | Usage    | Description       |
 | ----------- | -------- | ----------- | -------- | ----------------- |
-| PropertyOne | `string` |             | Required | Description here. |
+| PropertyOne | `string` | `undefined` | Optional | Description here. |
 | PropertyTwo | `number` | `undefined` | Optional | Description here. |
 
 ### Response
 
 ::: details 200: Success
 
-Type `boolean`
+Type: `Product`
 
 ```json
-true
+{
+  "property": "value"
+}
 ```
 
 :::
