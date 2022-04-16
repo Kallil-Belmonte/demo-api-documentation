@@ -84,6 +84,7 @@ export default defineConfig({
             'endpoints/products/post',
             'endpoints/products/put',
             'endpoints/products/get',
+            'endpoints/products/delete',
           ],
         },
         {
@@ -96,6 +97,7 @@ export default defineConfig({
             'endpoints/users/post',
             'endpoints/users/put',
             'endpoints/users/get',
+            'endpoints/users/delete',
           ],
         },
       ],

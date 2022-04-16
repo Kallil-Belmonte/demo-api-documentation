@@ -18,7 +18,7 @@ Type: `GetUserParams`
 
 | Name     | Type              | Default | Usage    | Description       |
 | -------- | ----------------- | ------- | -------- | ----------------- |
-| Property | `string` `number` |         | Required | Description here. |
+| property | `string` `number` |         | Required | Description here. |
 
 ### Response
 
@@ -52,8 +52,8 @@ Type: `GetUsersParams`
 
 | Name        | Type     | Default     | Usage    | Description       |
 | ----------- | -------- | ----------- | -------- | ----------------- |
-| PropertyOne | `string` |             | Required | Description here. |
-| PropertyTwo | `number` | `undefined` | Optional | Description here. |
+| propertyOne | `string` |             | Required | Description here. |
+| propertyTwo | `number` | `undefined` | Optional | Description here. |
 
 ### Response
 

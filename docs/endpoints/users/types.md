@@ -25,6 +25,16 @@ type GetUsersParams = {
 
 :::
 
+::: details DeleteUserParams
+
+```ts
+type DeleteUserParams = {
+  property: string;
+};
+```
+
+:::
+
 ## Body
 
 ::: details UserToAdd

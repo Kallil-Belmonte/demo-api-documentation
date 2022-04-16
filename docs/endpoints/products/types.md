@@ -25,6 +25,16 @@ type GetProductsParams = {
 
 :::
 
+::: details DeleteProductParams
+
+```ts
+type DeleteProductParams = {
+  property: string;
+};
+```
+
+:::
+
 ## Body
 
 ::: details ProductToAdd

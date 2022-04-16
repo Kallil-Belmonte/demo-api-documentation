@@ -18,8 +18,8 @@ Type: `ProductToEdit`
 
 | Name        | Type     | Default     | Usage    | Description       |
 | ----------- | -------- | ----------- | -------- | ----------------- |
-| PropertyOne | `string` | `undefined` | Optional | Description here. |
-| PropertyTwo | `number` | `undefined` | Optional | Description here. |
+| propertyOne | `string` | `undefined` | Optional | Description here. |
+| propertyTwo | `number` | `undefined` | Optional | Description here. |
 
 ### Response
 

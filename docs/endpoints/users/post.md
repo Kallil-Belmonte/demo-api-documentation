@@ -18,8 +18,8 @@ Type: `UserToAdd`
 
 | Name        | Type     | Default     | Usage    | Description       |
 | ----------- | -------- | ----------- | -------- | ----------------- |
-| PropertyOne | `string` |             | Required | Description here. |
-| PropertyTwo | `number` | `undefined` | Optional | Description here. |
+| propertyOne | `string` |             | Required | Description here. |
+| propertyTwo | `number` | `undefined` | Optional | Description here. |
 
 ### Response
 
