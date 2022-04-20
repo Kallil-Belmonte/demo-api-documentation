@@ -63,7 +63,7 @@ export default defineConfig({
       },
       {
         text: 'App',
-        link: 'https://v1.vuepress.vuejs.org',
+        link: 'https://vuepress.vuejs.org',
       },
     ],
     sidebar: {
