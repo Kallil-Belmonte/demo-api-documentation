@@ -15,24 +15,24 @@ export default defineConfig({
    * @see Title { @link https://v1.vuepress.vuejs.org/config/#title }
    * @see Description { @link https://v1.vuepress.vuejs.org/config/#description }
    */
-  title: 'API Documentation Demo',
-  description: 'A simple API Documentation.',
+  // title: 'API Documentation Demo',
+  // description: 'A simple API documentation.',
 
   /**
    * @see Locales { @link https://v1.vuepress.vuejs.org/guide/i18n.html#site-level-i18n-config }
    */
-  // locales: {
-  //   '/': {
-  //     lang: 'en-US',
-  //     title: 'API Documentation Demo',
-  //     description: 'A simple API Documentation.',
-  //   },
-  //   '/br': {
-  //     lang: 'pt-BR',
-  //     title: 'API Documentation Demo',
-  //     description: 'Uma simples documentação de API.',
-  //   },
-  // },
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'API Documentation Demo',
+      description: 'A simple API documentation.',
+    },
+    '/br/': {
+      lang: 'pt-BR',
+      title: 'API Documentation Demo',
+      description: 'Uma simples documentação de API.',
+    },
+  },
 
   /**
    * @see Config { @link https://v1.vuepress.vuejs.org/theme/default-theme-config }
@@ -44,63 +44,117 @@ export default defineConfig({
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Endpoints',
-        link: '/endpoints/',
-      },
-      {
-        text: 'Config',
-        link: '/config/',
-      },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'English', link: '/language/english/' },
-          { text: 'Português', link: '/language/portugues/' },
+    locales: {
+      '/': {
+        selectText: 'Languages',
+        label: 'English',
+        ariaLabel: 'Languages',
+        nav: [
+          {
+            text: 'Endpoints',
+            link: '/endpoints/',
+          },
+          {
+            text: 'Config',
+            link: '/config/',
+          },
+          {
+            text: 'App',
+            link: 'https://vuepress.vuejs.org',
+          },
         ],
-      },
-      {
-        text: 'App',
-        link: 'https://vuepress.vuejs.org',
-      },
-    ],
-    sidebar: {
-      '/endpoints': [
-        {
-          title: 'Endpoints',
-          path: '/endpoints/',
-          collapsable: true,
-          children: ['endpoints/'],
-        },
-        {
-          title: 'Products',
-          path: '/endpoints/products/',
-          collapsable: true,
-          children: [
-            'endpoints/products/',
-            'endpoints/products/types',
-            'endpoints/products/post',
-            'endpoints/products/put',
-            'endpoints/products/get',
-            'endpoints/products/delete',
+        sidebar: {
+          '/endpoints': [
+            {
+              title: 'Endpoints',
+              path: '/endpoints/',
+              collapsable: true,
+              children: ['endpoints/'],
+            },
+            {
+              title: 'Products',
+              path: '/endpoints/products/',
+              collapsable: true,
+              children: [
+                'endpoints/products/',
+                'endpoints/products/types',
+                'endpoints/products/post',
+                'endpoints/products/put',
+                'endpoints/products/get',
+                'endpoints/products/delete',
+              ],
+            },
+            {
+              title: 'Users',
+              path: '/endpoints/users/',
+              collapsable: true,
+              children: [
+                'endpoints/users/',
+                'endpoints/users/types',
+                'endpoints/users/post',
+                'endpoints/users/put',
+                'endpoints/users/get',
+                'endpoints/users/delete',
+              ],
+            },
           ],
         },
-        {
-          title: 'Users',
-          path: '/endpoints/users/',
-          collapsable: true,
-          children: [
-            'endpoints/users/',
-            'endpoints/users/types',
-            'endpoints/users/post',
-            'endpoints/users/put',
-            'endpoints/users/get',
-            'endpoints/users/delete',
+      },
+      '/br/': {
+        selectText: 'Idiomas',
+        label: 'Português',
+        ariaLabel: 'Idiomas',
+        nav: [
+          {
+            text: 'Endpoints',
+            link: '/br/endpoints/',
+          },
+          {
+            text: 'Configuração',
+            link: '/br/config/',
+          },
+          {
+            text: 'App',
+            link: 'https://vuepress.vuejs.org',
+          },
+        ],
+        sidebar: {
+          '/br/endpoints': [
+            {
+              title: 'Endpoints',
+              path: '/br/endpoints/',
+              collapsable: true,
+              children: ['endpoints/'],
+            },
+            {
+              title: 'Products',
+              path: '/br/endpoints/products/',
+              collapsable: true,
+              children: [
+                'endpoints/products/',
+                'endpoints/products/types',
+                'endpoints/products/post',
+                'endpoints/products/put',
+                'endpoints/products/get',
+                'endpoints/products/delete',
+              ],
+            },
+            {
+              title: 'Users',
+              path: '/br/endpoints/users/',
+              collapsable: true,
+              children: [
+                'endpoints/users/',
+                'endpoints/users/types',
+                'endpoints/users/post',
+                'endpoints/users/put',
+                'endpoints/users/get',
+                'endpoints/users/delete',
+              ],
+            },
           ],
         },
-      ],
+      },
     },
   },
 
