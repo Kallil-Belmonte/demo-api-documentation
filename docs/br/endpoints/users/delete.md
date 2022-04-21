@@ -12,7 +12,7 @@ DELETE /delete-user
 
 [Enviar requisição](https://hopp.sh/r/BK0mB70Nd8Wm '/delete-user')
 
-### Parametros
+### Parâmetro
 
 Tipo: `DeleteUserParams`
 

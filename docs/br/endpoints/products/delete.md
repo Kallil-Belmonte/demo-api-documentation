@@ -12,7 +12,7 @@ DELETE /delete-product
 
 [Enviar requisição](https://hopp.sh/r/4hjGNhODvoNS '/delete-product')
 
-### Parametros
+### Parâmetro
 
 Tipo: `DeleteProductParams`
 
