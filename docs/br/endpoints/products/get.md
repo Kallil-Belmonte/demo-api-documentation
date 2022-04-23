@@ -12,7 +12,7 @@ GET /get-product
 
 [Enviar requisição](https://hopp.sh/r/KC6zbfBzNX44 '/get-product')
 
-### Parâmetro
+### Parâmetros
 
 Tipo: `GetProductParams`
 
@@ -22,7 +22,7 @@ Tipo: `GetProductParams`
 
 ### Resposta
 
-::: details 200: Sucesso
+::: details 200: OK
 
 Tipo: `Product`
 
@@ -46,7 +46,7 @@ GET /get-products
 
 [Enviar requisição](https://hopp.sh/r/H2O26ilPwJLs '/get-products')
 
-### Parâmetro
+### Parâmetros
 
 Tipo: `GetProductsParams`
 
@@ -57,7 +57,7 @@ Tipo: `GetProductsParams`
 
 ### Resposta
 
-::: details 200: Sucesso
+::: details 200: OK
 
 Tipo: `Product[]`
 

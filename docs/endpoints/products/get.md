@@ -22,7 +22,7 @@ Type: `GetProductParams`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type: `Product`
 
@@ -57,7 +57,7 @@ Type: `GetProductsParams`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type: `Product[]`
 

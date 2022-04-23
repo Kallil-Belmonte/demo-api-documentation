@@ -12,7 +12,7 @@ GET /get-user
 
 [Enviar requisição](https://hopp.sh/r/JBh9Te5UcEqv '/get-user')
 
-### Parâmetro
+### Parâmetros
 
 Tipo: `GetUserParams`
 
@@ -22,7 +22,7 @@ Tipo: `GetUserParams`
 
 ### Resposta
 
-::: details 200: Sucesso
+::: details 200: OK
 
 Tipo: `User`
 
@@ -46,7 +46,7 @@ GET /get-users
 
 [Enviar requisição](https://hopp.sh/r/Mfa0Arg3zIqz '/get-users')
 
-### Parâmetro
+### Parâmetros
 
 Tipo: `GetUsersParams`
 
@@ -57,7 +57,7 @@ Tipo: `GetUsersParams`
 
 ### Resposta
 
-::: details 200: Sucesso
+::: details 200: OK
 
 Tipo: `User[]`
 

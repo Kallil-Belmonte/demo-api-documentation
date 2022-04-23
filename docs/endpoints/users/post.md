@@ -23,7 +23,7 @@ Type: `UserToAdd`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type `boolean`
 

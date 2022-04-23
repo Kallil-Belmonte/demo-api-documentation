@@ -23,7 +23,7 @@ Type: `ProductToEdit`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type: `Product`
 

@@ -3,7 +3,7 @@ home: true
 heroImage: /images/hero.png
 tagline: Uma simples documentação de API.
 actionText: Começar →
-actionLink: /config/
+actionLink: /br/config/
 features:
   - title: Simplicidade em Primeiro Lugar
     details: Configuração mínima com estrutura de projeto centrada no markdown, ajuda você a se concentrar na escrita.

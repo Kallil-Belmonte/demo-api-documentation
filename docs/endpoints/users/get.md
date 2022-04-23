@@ -22,7 +22,7 @@ Type: `GetUserParams`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type: `User`
 
@@ -57,7 +57,7 @@ Type: `GetUsersParams`
 
 ### Response
 
-::: details 200: Success
+::: details 200: OK
 
 Type: `User[]`
 
