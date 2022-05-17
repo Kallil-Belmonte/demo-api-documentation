@@ -47,8 +47,8 @@ export default defineConfig({
     locales: {
       '/': {
         selectText: 'Languages',
-        label: 'English',
         ariaLabel: 'Languages',
+        label: 'English',
         nav: [
           {
             text: 'Endpoints',
@@ -102,8 +102,8 @@ export default defineConfig({
       },
       '/br/': {
         selectText: 'Idiomas',
-        label: 'Português',
         ariaLabel: 'Idiomas',
+        label: 'Português',
         nav: [
           {
             text: 'Endpoints',
