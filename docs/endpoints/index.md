@@ -1,6 +1,6 @@
 # Introduction
 
-Demo API documentation.
+API documentation demo.
 
 ## General Types
 
