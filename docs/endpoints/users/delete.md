@@ -2,7 +2,7 @@
 
 ## User
 
-Description here.
+Method responsible for deleting an user.
 
 ### Endpoint
 

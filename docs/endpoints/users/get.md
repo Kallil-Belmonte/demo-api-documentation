@@ -2,7 +2,7 @@
 
 ## User
 
-Description here.
+Method responsible for getting an user.
 
 ### Endpoint
 
@@ -36,7 +36,7 @@ Type: `User`
 
 ## Users
 
-Description here.
+Method responsible for getting the users.
 
 ### Endpoint
 

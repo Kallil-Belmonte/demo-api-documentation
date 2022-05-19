@@ -2,7 +2,7 @@
 
 ## User
 
-Description here.
+Method responsible for adding an user.
 
 ### Endpoint
 
