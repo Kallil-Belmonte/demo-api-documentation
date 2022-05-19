@@ -1,3 +1,3 @@
 # Introduction
 
-Endpoints
+Endpoints description.
