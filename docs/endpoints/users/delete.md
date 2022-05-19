@@ -1,16 +1,16 @@
 # DELETE
 
-## Delete User
+## User
 
 Description here.
 
 ### Endpoint
 
 ```sh
-DELETE /delete-user
+DELETE /user
 ```
 
-[Send request](https://hopp.sh/r/BK0mB70Nd8Wm '/delete-user')
+[Send request](https://hopp.sh/r/BK0mB70Nd8Wm '/user')
 
 ### Parameters
 

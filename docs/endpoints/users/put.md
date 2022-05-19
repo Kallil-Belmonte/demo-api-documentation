@@ -1,16 +1,16 @@
 # PUT
 
-## Edit User
+## User
 
 Description here.
 
 ### Endpoint
 
 ```sh
-PUT /edit-user
+PUT /user
 ```
 
-[Send request](https://hopp.sh/r/RhtmRWywdrvY '/edit-user')
+[Send request](https://hopp.sh/r/RhtmRWywdrvY '/user')
 
 ### Body
 

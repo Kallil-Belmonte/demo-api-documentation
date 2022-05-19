@@ -1,16 +1,16 @@
 # DELETE
 
-## Delete Product
+## Product
 
-Description here.
+Method responsible for deleting a product.
 
 ### Endpoint
 
 ```sh
-DELETE /delete-product
+DELETE /product
 ```
 
-[Send request](https://hopp.sh/r/4hjGNhODvoNS '/delete-product')
+[Send request](https://hopp.sh/r/4hjGNhODvoNS '/product')
 
 ### Parameters
 

@@ -1,16 +1,16 @@
 # GET
 
-## Get User
+## User
 
 Description here.
 
 ### Endpoint
 
 ```sh
-GET /get-user
+GET /user
 ```
 
-[Send request](https://hopp.sh/r/JBh9Te5UcEqv '/get-user')
+[Send request](https://hopp.sh/r/JBh9Te5UcEqv '/user')
 
 ### Parameters
 
@@ -34,17 +34,17 @@ Type: `User`
 
 :::
 
-## Get Users
+## Users
 
 Description here.
 
 ### Endpoint
 
 ```sh
-GET /get-users
+GET /users
 ```
 
-[Send request](https://hopp.sh/r/Mfa0Arg3zIqz '/get-users')
+[Send request](https://hopp.sh/r/Mfa0Arg3zIqz '/users')
 
 ### Parameters
 

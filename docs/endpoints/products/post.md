@@ -1,16 +1,16 @@
 # POST
 
-## Add Product
+## Product
 
-Description here.
+Method responsible for adding a product.
 
 ### Endpoint
 
 ```sh
-POST /add-product
+POST /product
 ```
 
-[Send request](https://hopp.sh/r/SXbZnB4HffzH '/add-product')
+[Send request](https://hopp.sh/r/SXbZnB4HffzH '/product')
 
 ### Body
 

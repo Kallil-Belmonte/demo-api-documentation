@@ -1,16 +1,16 @@
 # PUT
 
-## Edit Product
+## Product
 
-Description here.
+Method responsible for editing a product.
 
 ### Endpoint
 
 ```sh
-PUT /edit-product
+PUT /product
 ```
 
-[Send request](https://hopp.sh/r/dGrjfpNoepNK '/edit-product')
+[Send request](https://hopp.sh/r/dGrjfpNoepNK '/product')
 
 ### Body
 

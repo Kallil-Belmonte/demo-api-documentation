@@ -1,16 +1,16 @@
 # POST
 
-## Add User
+## User
 
 Description here.
 
 ### Endpoint
 
 ```sh
-POST /add-user
+POST /user
 ```
 
-[Send request](https://hopp.sh/r/aLQnF0HzwHNI '/add-user')
+[Send request](https://hopp.sh/r/aLQnF0HzwHNI '/user')
 
 ### Body
 

@@ -1,16 +1,16 @@
 # GET
 
-## Get Product
+## Product
 
-Description here.
+Method responsible for getting a product.
 
 ### Endpoint
 
 ```sh
-GET /get-product
+GET /product
 ```
 
-[Send request](https://hopp.sh/r/KC6zbfBzNX44 '/get-product')
+[Send request](https://hopp.sh/r/KC6zbfBzNX44 '/product')
 
 ### Parameters
 
@@ -34,17 +34,17 @@ Type: `Product`
 
 :::
 
-## Get Products
+## Products
 
-Description here.
+Method responsible for getting the products.
 
 ### Endpoint
 
 ```sh
-GET /get-products
+GET /products
 ```
 
-[Send request](https://hopp.sh/r/H2O26ilPwJLs '/get-products')
+[Send request](https://hopp.sh/r/H2O26ilPwJLs '/products')
 
 ### Parameters
 
