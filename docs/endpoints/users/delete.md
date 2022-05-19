@@ -10,7 +10,7 @@ Method responsible for deleting an user.
 DELETE /user
 ```
 
-[Send request](https://hopp.sh/r/BK0mB70Nd8Wm '/user')
+[Send request](https://hopp.sh/r/C9uo9Ezvrj5x '/user')
 
 ### Parameters
 

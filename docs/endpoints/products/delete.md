@@ -10,7 +10,7 @@ Method responsible for deleting a product.
 DELETE /product
 ```
 
-[Send request](https://hopp.sh/r/4hjGNhODvoNS '/product')
+[Send request](https://hopp.sh/r/kOcbEQyeQ3nU '/product')
 
 ### Parameters
 

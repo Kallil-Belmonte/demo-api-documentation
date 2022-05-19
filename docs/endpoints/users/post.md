@@ -10,7 +10,7 @@ Method responsible for adding an user.
 POST /user
 ```
 
-[Send request](https://hopp.sh/r/aLQnF0HzwHNI '/user')
+[Send request](https://hopp.sh/r/ikyHoc3Ey7wq '/user')
 
 ### Body
 
