@@ -2,7 +2,7 @@
 
 ## User
 
-Method responsible for editing an user.
+Method responsible for editing a user.
 
 ### Endpoint
 

@@ -1,16 +1,16 @@
 # GET
 
-## Get Product
+## Product
 
-Descrição aqui.
+Método responsável pela obtenção de um produto.
 
 ### Endpoint
 
 ```sh
-GET /get-product
+GET /product
 ```
 
-[Enviar requisição](https://hopp.sh/r/KC6zbfBzNX44 '/get-product')
+[Send request](https://hopp.sh/r/0VyWsU5VDBGW '/product')
 
 ### Parâmetros
 
@@ -34,17 +34,17 @@ Tipo: `Product`
 
 :::
 
-## Get Products
+## Products
 
-Descrição aqui.
+Método responsável pela obtenção dos produtos.
 
 ### Endpoint
 
 ```sh
-GET /get-products
+GET /products
 ```
 
-[Enviar requisição](https://hopp.sh/r/H2O26ilPwJLs '/get-products')
+[Send request](https://hopp.sh/r/qXUy4cDL5ArW '/products')
 
 ### Parâmetros
 
@@ -53,7 +53,7 @@ Tipo: `GetProductsParams`
 | Name        | Type     | Default     | Usage       | Description     |
 | ----------- | -------- | ----------- | ----------- | --------------- |
 | propertyOne | `string` |             | Obrigatório | Descrição aqui. |
-| propertyTwo | `number` | `undefined` | Optional    | Descrição aqui. |
+| propertyTwo | `number` | `undefined` | Opcional    | Descrição aqui. |
 
 ### Resposta
 

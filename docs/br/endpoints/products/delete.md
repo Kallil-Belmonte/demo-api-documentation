@@ -1,24 +1,24 @@
 # DELETE
 
-## Delete Product
+## Product
 
-Descrição aqui.
+Método responsável por excluir um produto.
 
 ### Endpoint
 
 ```sh
-DELETE /delete-product
+DELETE /product
 ```
 
-[Enviar requisição](https://hopp.sh/r/4hjGNhODvoNS '/delete-product')
+[Send request](https://hopp.sh/r/kOcbEQyeQ3nU '/product')
 
 ### Parâmetros
 
 Tipo: `DeleteProductParams`
 
-| Nome     | TTipo    | Padrão | Uso         | Descrição       |
-| -------- | -------- | ------ | ----------- | --------------- |
-| property | `string` |        | Obrigatório | Descrição aqui. |
+| Name     | Type     | Default | Usage       | Description     |
+| -------- | -------- | ------- | ----------- | --------------- |
+| property | `string` |         | Obrigatório | Descrição aqui. |
 
 ### Resposta
 

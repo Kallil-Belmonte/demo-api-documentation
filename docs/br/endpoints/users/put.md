@@ -1,16 +1,16 @@
 # PUT
 
-## Edit User
+## User
 
-Descrição aqui.
+Método responsável por editar um usuário.
 
 ### Endpoint
 
 ```sh
-PUT /edit-user
+PUT /user
 ```
 
-[Enviar requisição](https://hopp.sh/r/RhtmRWywdrvY '/edit-user')
+[Send request](https://hopp.sh/r/2lUSclVS0hUL '/user')
 
 ### Body
 

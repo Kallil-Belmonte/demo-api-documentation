@@ -1,16 +1,16 @@
 # GET
 
-## Get User
+## User
 
-Descrição aqui.
+Método responsável por obter um usuário.
 
 ### Endpoint
 
 ```sh
-GET /get-user
+GET /user
 ```
 
-[Enviar requisição](https://hopp.sh/r/JBh9Te5UcEqv '/get-user')
+[Send request](https://hopp.sh/r/lMkTHboeeOOb '/user')
 
 ### Parâmetros
 
@@ -34,17 +34,17 @@ Tipo: `User`
 
 :::
 
-## Get Users
+## Users
 
-Descrição aqui.
+Método responsável por obter os usuários.
 
 ### Endpoint
 
 ```sh
-GET /get-users
+GET /users
 ```
 
-[Enviar requisição](https://hopp.sh/r/Mfa0Arg3zIqz '/get-users')
+[Send request](https://hopp.sh/r/j2PzSwoe0Bmp '/users')
 
 ### Parâmetros
 
@@ -53,7 +53,7 @@ Tipo: `GetUsersParams`
 | Name        | Type     | Default     | Usage       | Description     |
 | ----------- | -------- | ----------- | ----------- | --------------- |
 | propertyOne | `string` |             | Obrigatório | Descrição aqui. |
-| propertyTwo | `number` | `undefined` | Optional    | Descrição aqui. |
+| propertyTwo | `number` | `undefined` | Opcional    | Descrição aqui. |
 
 ### Resposta
 

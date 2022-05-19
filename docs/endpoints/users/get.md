@@ -2,7 +2,7 @@
 
 ## User
 
-Method responsible for getting an user.
+Method responsible for getting a user.
 
 ### Endpoint
 

@@ -1,24 +1,24 @@
 # DELETE
 
-## Delete User
+## User
 
-Descrição aqui.
+Método responsável por excluir um usuário.
 
 ### Endpoint
 
 ```sh
-DELETE /delete-user
+DELETE /user
 ```
 
-[Enviar requisição](https://hopp.sh/r/BK0mB70Nd8Wm '/delete-user')
+[Send request](https://hopp.sh/r/C9uo9Ezvrj5x '/user')
 
 ### Parâmetros
 
 Tipo: `DeleteUserParams`
 
-| Nome     | TTipo    | Padrão | Uso         | Descrição       |
-| -------- | -------- | ------ | ----------- | --------------- |
-| property | `string` |        | Obrigatório | Descrição aqui. |
+| Name     | Type     | Default | Usage       | Description     |
+| -------- | -------- | ------- | ----------- | --------------- |
+| property | `string` |         | Obrigatório | Descrição aqui. |
 
 ### Resposta
 

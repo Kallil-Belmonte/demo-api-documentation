@@ -2,7 +2,7 @@
 
 ## User
 
-Method responsible for adding an user.
+Method responsible for adding a user.
 
 ### Endpoint
 
@@ -25,7 +25,7 @@ Type: `UserToAdd`
 
 ::: details 200: OK
 
-Type `boolean`
+Type: `boolean`
 
 ```json
 true
