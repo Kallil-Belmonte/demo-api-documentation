@@ -1,6 +1,6 @@
 # Introdução
 
-Demonstração da documentação da API.
+Documentação de demonstração da API.
 
 ## Tipos Gerais
 
