@@ -4,7 +4,7 @@ VitePress is [VuePress](https://vuepress.vuejs.org/)' spiritual successor, built
 
 ## Documentation
 
-To check out docs, [visit vitepress.vuejs.org](https://vitepress.vuejs.org/).
+To check out docs, visit [vitepress.vuejs.org](https://vitepress.vuejs.org/).
 
 ## Commands
 
