@@ -10,7 +10,7 @@ Method responsible for getting a product.
 GET /product
 ```
 
-[Send request](https://hopp.sh/r/0VyWsU5VDBGW '/product')
+[Send request](https://hopp.sh/r/0AS9TzAtYVi4 '/product')
 
 ### Parameters
 
@@ -44,7 +44,7 @@ Method responsible for getting the products.
 GET /products
 ```
 
-[Send request](https://hopp.sh/r/qXUy4cDL5ArW '/products')
+[Send request](https://hopp.sh/r/XXIo3et4pOSO '/products')
 
 ### Parameters
 

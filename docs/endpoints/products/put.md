@@ -10,7 +10,7 @@ Method responsible for editing a product.
 PUT /product
 ```
 
-[Send request](https://hopp.sh/r/FPMr0TFk3pTI '/product')
+[Send request](https://hopp.sh/r/T7rXLI0BlpzK '/product')
 
 ### Body
 

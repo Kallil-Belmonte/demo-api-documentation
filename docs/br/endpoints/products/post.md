@@ -10,7 +10,7 @@ Método responsável por adicionar um produto.
 POST /product
 ```
 
-[Send request](https://hopp.sh/r/PHI70JlGmxl4 '/product')
+[Send request](https://hopp.sh/r/RBIndltVMBg1 '/product')
 
 ### Body
 

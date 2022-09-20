@@ -10,7 +10,7 @@ Método responsável pela obtenção de um produto.
 GET /product
 ```
 
-[Send request](https://hopp.sh/r/0VyWsU5VDBGW '/product')
+[Send request](https://hopp.sh/r/0AS9TzAtYVi4 '/product')
 
 ### Parâmetros
 
@@ -44,7 +44,7 @@ Método responsável pela obtenção dos produtos.
 GET /products
 ```
 
-[Send request](https://hopp.sh/r/qXUy4cDL5ArW '/products')
+[Send request](https://hopp.sh/r/XXIo3et4pOSO '/products')
 
 ### Parâmetros
 

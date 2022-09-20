@@ -10,7 +10,7 @@ Método responsável por obter um usuário.
 GET /user
 ```
 
-[Send request](https://hopp.sh/r/lMkTHboeeOOb '/user')
+[Send request](https://hopp.sh/r/HXfKJxCf0DjD '/user')
 
 ### Parâmetros
 
@@ -44,7 +44,7 @@ Método responsável por obter os usuários.
 GET /users
 ```
 
-[Send request](https://hopp.sh/r/j2PzSwoe0Bmp '/users')
+[Send request](https://hopp.sh/r/dmHHFAtVoQXM '/users')
 
 ### Parâmetros
 

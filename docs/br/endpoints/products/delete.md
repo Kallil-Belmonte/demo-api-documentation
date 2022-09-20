@@ -10,7 +10,7 @@ Método responsável por excluir um produto.
 DELETE /product
 ```
 
-[Send request](https://hopp.sh/r/kOcbEQyeQ3nU '/product')
+[Send request](https://hopp.sh/r/EKdsDkqKxZli '/product')
 
 ### Parâmetros
 

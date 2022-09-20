@@ -10,7 +10,7 @@ Método responsável por editar um usuário.
 PUT /user
 ```
 
-[Send request](https://hopp.sh/r/2lUSclVS0hUL '/user')
+[Send request](https://hopp.sh/r/LDZC2r3Ptg8I '/user')
 
 ### Body
 
