@@ -1,4 +1,4 @@
-# Introdução
+# Sumário
 
 Métodos para gerenciar os produtos.
 

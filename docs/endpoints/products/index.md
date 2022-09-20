@@ -1,4 +1,4 @@
-# Introduction
+# Summary
 
 Methods for managing the products.
 

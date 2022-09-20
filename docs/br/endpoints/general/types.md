@@ -1,8 +1,4 @@
-# Introduction
-
-API documentation demo.
-
-## General Types
+# Tipos
 
 ::: details Error
 

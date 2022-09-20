@@ -1,15 +1,27 @@
 ---
-home: true
-heroImage: /images/hero.png
-tagline: Uma simples documentação de API.
-actionText: Começar →
-actionLink: /br/config/
+layout: home
+hero:
+  name: Demo
+  text: Documentação API.
+  tagline: Uma simples documentação API.
+  actions:
+    - theme: brand
+      text: Começar
+      link: br/endpoints/general/
+    - theme: alt
+      text: Ver no GitHub
+      link: https://github.com/Kallil-Belmonte/demo-api-documentation
 features:
-  - title: Simplicidade em Primeiro Lugar
-    details: Configuração mínima com estrutura de projeto centrada no markdown, ajuda você a se concentrar na escrita.
-  - title: Produzido por Vue
-    details: Aproveite a experiência de desenvolvimento, use componentes Vue em markdown e desenvolva temas personalizados com Vue.
-  - title: Eficiente
-    details: O VuePress gera HTML estático pré-renderizado para cada página e é executado como um SPA assim que uma página é carregada.
-footer: MIT Licensed | Copyright © 2022-present John Doe
+  - icon: ⚡️
+    title: 'Vite: O DX que não pode ser superado'
+    details: 'Sinta a velocidade do Vite. Arranque instantâneo do servidor e HMR rápido que se mantém rápido independentemente do tamanho da aplicação.'
+  - icon: ⌛
+    title: 'Desenhado para ser simples primeiro'
+    details: 'Com um conteúdo centrado no Markdown, é construído para o ajudar a concentrar-se na escrita e a ser implantado com uma configuração mínima.'
+  - icon: 👌
+    title: 'O Poder da Vue encontra o Markdown'
+    details: 'Enhance your content with all the features of Vue in Markdown, while being able to customize your site with Vue.'
+  - icon: 💻
+    title: 'Totalmente estático mas ainda dinâmico'
+    details: 'Vá com tudo com a verdadeira arquitectura SSG + SPA. Estático no carregamento da página, mas envolva os utilizadores com 100% de interactividade a partir daí.'
 ---
