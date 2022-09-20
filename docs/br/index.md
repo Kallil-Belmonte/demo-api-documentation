@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Demo
   text: Documentação API.
-  tagline: Uma simples documentação API.
+  tagline: Uma documentação de API demo.
   actions:
     - theme: brand
       text: Começar

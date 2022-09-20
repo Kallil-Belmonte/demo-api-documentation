@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Demo',
   titleTemplate: 'API Documentation',
-  description: 'A simple API documentation.',
+  description: 'A demo API documentation.',
   head: [
     ['link', { rel: 'shortcut icon', href: '/images/favicon.ico', type: 'image/x-icon' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],

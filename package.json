@@ -1,7 +1,7 @@
 {
   "name": "demo-api-documentation",
   "version": "1.0.0",
-  "description": "A simple API documentation.",
+  "description": "A demo API documentation.",
   "authors": {
     "name": "Kallil Belmonte",
     "email": "kallil.belmonte@email.com"
