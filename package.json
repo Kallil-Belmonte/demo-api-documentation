@@ -2,12 +2,7 @@
   "name": "demo-api-documentation",
   "version": "1.0.0",
   "description": "A demo API documentation.",
-  "authors": {
-    "name": "Kallil Belmonte",
-    "email": "kallil.belmonte@email.com"
-  },
-  "repository": "https://github.com/Kallil-Belmonte/vuepress-api-documentation-demo",
-  "license": "MIT",
+  "repository": "https://github.com/Kallil-Belmonte/demo-api-documentation",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
