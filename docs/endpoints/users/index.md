@@ -2,6 +2,12 @@
 
 Methods for managing the users.
 
+**GET**
+
+[/user](/endpoints/users/get.html#user)
+
+[/users](/endpoints/users/get.html#users)
+
 **POST**
 
 [/user](/endpoints/users/post.html#user)
@@ -9,12 +15,6 @@ Methods for managing the users.
 **PUT**
 
 [/user](/endpoints/users/put.html#user)
-
-**GET**
-
-[/user](/endpoints/users/get.html#user)
-
-[/users](/endpoints/users/get.html#users)
 
 **DELETE**
 

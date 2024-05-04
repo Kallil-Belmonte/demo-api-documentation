@@ -66,9 +66,9 @@ export default defineConfig({
           items: [
             { text: 'Summary', link: 'endpoints/products/index' },
             { text: 'Types', link: 'endpoints/products/types' },
+            { text: 'GET', link: 'endpoints/products/get' },
             { text: 'POST', link: 'endpoints/products/post' },
             { text: 'PUT', link: 'endpoints/products/put' },
-            { text: 'GET', link: 'endpoints/products/get' },
             { text: 'DELETE', link: 'endpoints/products/delete' },
           ],
         },
@@ -78,9 +78,9 @@ export default defineConfig({
           items: [
             { text: 'Summary', link: 'endpoints/users/index' },
             { text: 'Types', link: 'endpoints/users/types' },
+            { text: 'GET', link: 'endpoints/users/get' },
             { text: 'POST', link: 'endpoints/users/post' },
             { text: 'PUT', link: 'endpoints/users/put' },
-            { text: 'GET', link: 'endpoints/users/get' },
             { text: 'DELETE', link: 'endpoints/users/delete' },
           ],
         },
@@ -134,49 +134,49 @@ export default defineConfig({
           },
         ],
         sidebar: {
-          '/endpoints/': [
+          '/br/endpoints/': [
             {
               text: 'Geral',
               collapsed: true,
               items: [
-                { text: 'Introdução', link: 'endpoints/general/index' },
-                { text: 'Tipos', link: 'endpoints/general/types' },
+                { text: 'Introdução', link: 'br/endpoints/general/index' },
+                { text: 'Tipos', link: 'br/endpoints/general/types' },
               ],
             },
             {
               text: 'Produtos',
               collapsed: true,
               items: [
-                { text: 'Sumário', link: 'endpoints/products/index' },
-                { text: 'Tipos', link: 'endpoints/products/types' },
-                { text: 'POST', link: 'endpoints/products/post' },
-                { text: 'PUT', link: 'endpoints/products/put' },
-                { text: 'GET', link: 'endpoints/products/get' },
-                { text: 'DELETE', link: 'endpoints/products/delete' },
+                { text: 'Sumário', link: 'br/endpoints/products/index' },
+                { text: 'Tipos', link: 'br/endpoints/products/types' },
+                { text: 'GET', link: 'br/endpoints/products/get' },
+                { text: 'POST', link: 'br/endpoints/products/post' },
+                { text: 'PUT', link: 'br/endpoints/products/put' },
+                { text: 'DELETE', link: 'br/endpoints/products/delete' },
               ],
             },
             {
               text: 'Usuários',
               collapsed: true,
               items: [
-                { text: 'Summary', link: 'endpoints/users/index' },
-                { text: 'Tipos', link: 'endpoints/users/types' },
-                { text: 'POST', link: 'endpoints/users/post' },
-                { text: 'PUT', link: 'endpoints/users/put' },
-                { text: 'GET', link: 'endpoints/users/get' },
-                { text: 'DELETE', link: 'endpoints/users/delete' },
+                { text: 'Summary', link: 'br/endpoints/users/index' },
+                { text: 'Tipos', link: 'br/endpoints/users/types' },
+                { text: 'GET', link: 'br/endpoints/users/get' },
+                { text: 'POST', link: 'br/endpoints/users/post' },
+                { text: 'PUT', link: 'br/endpoints/users/put' },
+                { text: 'DELETE', link: 'br/endpoints/users/delete' },
               ],
             },
           ],
-          '/config/': [
+          '/br/config/': [
             {
               text: 'Configuração',
               collapsed: false,
               items: [
-                { text: 'Começando', link: 'config/index' },
-                { text: 'Ambientes', link: 'config/environments' },
-                { text: 'Verbos HTTP', link: 'config/http-verbs' },
-                { text: 'Status HTTP', link: 'config/http-status' },
+                { text: 'Começando', link: 'br/config/index' },
+                { text: 'Ambientes', link: 'br/config/environments' },
+                { text: 'Verbos HTTP', link: 'br/config/http-verbs' },
+                { text: 'Status HTTP', link: 'br/config/http-status' },
               ],
             },
           ],

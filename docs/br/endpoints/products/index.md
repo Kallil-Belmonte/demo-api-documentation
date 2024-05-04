@@ -2,6 +2,12 @@
 
 Métodos para gerenciar os produtos.
 
+**GET**
+
+[/product](/br/endpoints/products/get.html#product)
+
+[/products](/br/endpoints/products/get.html#products)
+
 **POST**
 
 [/product](/br/endpoints/products/post.html#product)
@@ -9,12 +15,6 @@ Métodos para gerenciar os produtos.
 **PUT**
 
 [/product](/br/endpoints/products/put.html#product)
-
-**GET**
-
-[/product](/br/endpoints/products/get.html#product)
-
-[/products](/br/endpoints/products/get.html#products)
 
 **DELETE**
 
