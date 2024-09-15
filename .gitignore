@@ -1,12 +1,11 @@
-pids
+# Logs
 logs
+*.log
+
+# Editor directories and files
 node_modules
-npm-debug.log
-coverage/
-run
 dist
+dist-ssr
+.vscode/*
+*.local
 .DS_Store
-.nyc_output
-.basement
-config.local.js
-basement_dist
